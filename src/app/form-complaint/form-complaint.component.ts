@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Complaint } from '../model/complaint';
 import { ComplaintService } from '../services/complaint.service';
 
@@ -10,13 +11,22 @@ import { ComplaintService } from '../services/complaint.service';
 export class FormComplaintComponent implements OnInit {
 
   complaint : Complaint = new Complaint();
-  constructor(private cs : ComplaintService,) { }
+  constructor(private cs : ComplaintService, private _router: Router) { }
 
 
   addComplaint() {
     this.cs.addComplaint(this.complaint).subscribe();
   }
 
+  save(){
+   
+ 
+    window.alert ("complaint saved ");
+    this._router.navigateByUrl('/mycomplaints');
+    
+      
+      
+}
   ngOnInit(): void {
   }
 
