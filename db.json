@@ -1,0 +1,60 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "gproducts": [
+    {
+      "id": 1,
+      "title": "T-razer mouse 1",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro magni voluptatem mollitia tenetur! Animi tempore dolore quos, suscipit assumenda reiciendis voluptas repellendus veniam porro. Neque recusandae voluptas sit repudiandae aliquid.",
+      "price": 18,
+      "quantity": 0,
+      "addedtocart": false
+    },
+    {
+      "id": 2,
+      "title": "T-redragon 2",
+      "price": 21,
+      "description": "efg",
+      "quantity": 10,
+      "addedtocart": false
+    },
+    {
+      "id": 3,
+      "title": "T-steelseries 3",
+      "price": 16,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro magni voluptatem mollitia tenetur! Animi tempore dolore quos, suscipit assumenda reiciendis voluptas repellendus veniam porro. Neque recusandae voluptas sit repudiandae aliquid.",
+      "quantity": 8,
+      "addedtocart": false
+    },
+    {
+      "id": 4,
+      "title": "mouse 4",
+      "price": 20,
+      "description": "abaaaac",
+      "quantity": 8,
+      "addedtocart": false
+    }
+  ],
+  "complaints": [
+    {
+      "id": 2,
+      "title": "edited",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro magni voluptatem mollitia tenetur! Animi tempore dolore quos, suscipit assumenda reiciendis voluptas repellendus veniam porro. Neque recusandae voluptas sit repudiandae aliquid."
+    }
+  ]
+}

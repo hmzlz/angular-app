@@ -1,0 +1,26 @@
+<div class="container py-5">
+    <div class="row text-center text-white mb-5">
+        <div class="col-lg-7 mx-auto">
+            <h1 class="display-4"> Gaming Product List </h1>
+        </div>
+            <div class="col-lg-3">
+                <input class="form-control" type="text" name="search" [(ngModel)]="searchText" autocomplete="off" placeholder="Search products">
+               </div>
+       </div>
+    </div>
+  
+        
+    
+    <div class="row">
+        
+        <div class="col-lg-8 mx-auto">
+            
+            <ul class="list-group shadow">
+                
+                
+                    <app-gprod   *ngFor="let p of gproducts| filter:searchText" [gprod] ="p" (addtocart)="addtocart(p)"></app-gprod>
+                    <!-- Custom content-->
+                    
+                        <!-- End -->
+                 <!-- End -->
+
