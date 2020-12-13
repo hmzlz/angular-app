@@ -23,7 +23,7 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro magni voluptatem mollitia tenetur! Animi tempore dolore quos, suscipit assumenda reiciendis voluptas repellendus veniam porro. Neque recusandae voluptas sit repudiandae aliquid.",
       "price": 18,
       "quantity": 0,
-      "addedtocart": false
+      "addedtocart": true
     },
     {
       "id": 2,
@@ -57,9 +57,9 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro magni voluptatem mollitia tenetur! Animi tempore dolore quos, suscipit assumenda reiciendis voluptas repellendus veniam porro. Neque recusandae voluptas sit repudiandae aliquid."
     },
     {
-      "title": "adding complaint",
-      "description": "testing",
-      "id": 3
+      "title": "test",
+      "description": "test123",
+      "id": 4
     }
   ]
 }
